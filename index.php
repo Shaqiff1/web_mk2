@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Ceritakan tentang diri anda</title>
+    <meta charset="UTF-8">
+    <title>index</title>
 </head>
 <body>
-<h1>Ceritakan tentang diri anda:</h1>
-<form action="display.php" method="post">
-    <textarea name="cerita" rows="5" cols="40"></textarea>
-    <br>
-    <input type="submit" name="simpan" value="Simpan">
+<h1>Ceritakan Tentang Diri Anda:</h1>
+
+<form action="papar.php" method="post">
+    <textarea name="cerita" id="cerita" rows="4" cols="50" required></textarea><br><br>
+    <input type="submit" value="Simpan">
 </form>
+
 </body>
 </html>
 
